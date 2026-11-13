@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "WhatsAppClone (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "WhatsAppClone (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
