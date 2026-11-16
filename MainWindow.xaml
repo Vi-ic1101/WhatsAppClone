@@ -37,21 +37,21 @@
                         Height="46"
                         CornerRadius="23"
                         Background="#374951"
-                        BorderThickness="0"
+                        BorderThickness="3"
                         Content="&#xE77B;"
                         FontFamily="Segoe Fluent Icons"
-                        FontSize="18"
+                        FontSize="15"
                         ToolTipService.ToolTip="Profile"/>
 
                 <Button 
                     Width="46"
                     Height="46"
                     Background="#374951"
-                    BorderThickness="0"
+                    BorderThickness="3"
                     CornerRadius="23"
                     Content="&#xE8BD;"
                     FontFamily="Segoe Fluent Icons"
-                    FontSize="21"
+                    FontSize="18"
                     ToolTipService.ToolTip="Chats"/>
 
 
@@ -64,7 +64,7 @@
                      Content="&#xF138;"
                      FontFamily="Segoe Fluent Icons"
                      FontSize="21"
-                     ToolTipService.ToolTip="Chats"/>       
+                     ToolTipService.ToolTip="Chats"/>
 
                 <Button 
                      Width="46"
@@ -76,6 +76,28 @@
                      FontFamily="Segoe Fluent Icons"
                      FontSize="20"
                      ToolTipService.ToolTip="Communities"/>
+
+                <Button 
+                     Width="46"
+                     Height="46"
+                     Background="Transparent"
+                     BorderThickness="3"
+                     CornerRadius="23"
+                     Content="&#xE789;"
+                     FontFamily="Segoe Fluent Icons"
+                     FontSize="18"
+                     ToolTipService.ToolTip="Channels"/>
+
+                <Button 
+                     Width="46"
+                     Height="46"
+                     Background="Transparent"
+                     BorderThickness="3"
+                     CornerRadius="23"
+                     Content="&#xE717;"
+                     FontFamily="Segoe Fluent Icons"
+                     FontSize="20"
+                     ToolTipService.ToolTip="Calls"/>
             </StackPanel>
         </Grid>
         
