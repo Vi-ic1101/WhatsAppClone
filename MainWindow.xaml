@@ -99,6 +99,36 @@
                      FontSize="20"
                      ToolTipService.ToolTip="Calls"/>
             </StackPanel>
+
+            <StackPanel Grid.Row="2"
+                        Spacing="12"
+                        Padding="10"
+                        HorizontalAlignment="Center">
+
+                <Button 
+                     Width="46"
+                     Height="46"
+                     Background="Transparent"
+                     BorderThickness="3"
+                     CornerRadius="23"
+                     Content="&#xE713;"
+                     FontFamily="Segoe Fluent Icons"
+                     FontSize="18"
+                     ToolTipService.ToolTip="Settings"/>
+
+
+                <Button
+                    Width="46"
+                    Height="46"
+                    CornerRadius="23"
+                    Background="#52636C"
+                    BorderThickness="0"
+                    Content="&#xEA8C;"
+                    FontFamily="Segoe Fluent Icons"
+                    FontSize="18"
+                    ToolTipService.ToolTip="My Account"/>
+
+            </StackPanel>
         </Grid>
         
         <Grid Grid.Column="1" Background="#FFFFFF" >
