@@ -164,15 +164,19 @@
                     <Button
                         Content="✎"
                         FontSize="20"
-                        Background="Black"
-                        BorderThickness="2"
+                        Foreground="Black"
+                        Background="Moccasin"
+                        BorderThickness="2" 
+                        CornerRadius="23"
                         ToolTipService.ToolTip="New chat"/>
 
                     <Button
                         Content="⋮"
                         FontSize="23"
+                        Foreground="Black"
                         Background="Beige"
                         BorderThickness="2"
+                        CornerRadius="23"
                         ToolTipService.ToolTip="Menu"/> 
                 </StackPanel>
             </Grid>
