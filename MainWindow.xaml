@@ -180,6 +180,38 @@
                         ToolTipService.ToolTip="Menu"/> 
                 </StackPanel>
             </Grid>
+            <!-- Search box part-->
+            <Grid Grid.Row="1"
+                  Padding="12,8">
+                <Border 
+                      Background="#F0F2F5"
+                        CornerRadius="8"
+                        Padding="12,0">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="30"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <TextBlock 
+                            Text="⌕"
+                            FontSize="22"
+                            Foreground="#667781"
+                            VerticalAlignment="Center"/>
+
+                        <TextBox 
+                           PlaceholderText="Search or start a new chat"
+                            Background="Transparent"
+                            BorderThickness="0"
+                            VerticalContentAlignment="Center"
+                            FontSize="13"/>
+
+                    </Grid>
+                    
+                </Border>
+            </Grid>
+
+            
         </Grid>
 
         <Grid Grid.Column="2" Background="#EFEAE2">
